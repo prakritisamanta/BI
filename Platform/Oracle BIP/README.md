@@ -1,4 +1,4 @@
-# What is Oracle BI Publisher (BIP)?
+# Oracle BI Publisher (BIP)
 
 **Oracle Business Intelligence Publisher (BIP)** is an enterprise reporting solution from Oracle, primarily designed for creating and managing highly formatted, pixel-perfect reports, forms, and documents. While it can be used standalone, it's most commonly integrated with other Oracle products, especially **Oracle Fusion Applications** (e.g., Fusion ERP, HCM, SCM) where it serves as the core engine for operational reporting and document generation.
 

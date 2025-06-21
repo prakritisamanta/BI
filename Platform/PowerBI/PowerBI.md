@@ -11,7 +11,8 @@ Power BI consists of several elements that all work together, starting with thes
 - <b>Power BI mobile apps</b> for Windows, iOS, and Android devices.
 
 <br>
-![MSTR](assets/images/power_bi/image001.png)
+
+![image001](https://github.com/user-attachments/assets/28e7aa74-d9c7-4ba6-b494-dc8ad7db735b)
 
 These three elements—Power BI Desktop, the service, and the mobile apps—are designed to let you create, share, and consume business insights in the way that serves you and your role most effectively.
 
@@ -38,14 +39,14 @@ With Power BI Desktop, you can:
 <br>
 From the Welcome screen, you can Get data, see Recent sources, open recent reports, Open other reports, or select other links. Select the close icon to close the Welcome screen.
 
-![MSTR](assets/images/power_bi/image002.png)
+![image002](https://github.com/user-attachments/assets/3d321462-8847-45a2-aee9-fded9157165d)
 
 Along the left side of Power BI Desktop are icons for the three Power BI Desktop views: Report, Data, and Model, from top to bottom. The current view is indicated by the yellow bar along the left, and you can change views by selecting any of the icons.
 
-![MSTR](assets/images/power_bi/image003.png)
+![image003](https://github.com/user-attachments/assets/ba5f825a-862f-474c-bc6b-2ee216e1c77c)
 
-![MSTR](assets/images/power_bi/image004.png)
- 
+![image004](https://github.com/user-attachments/assets/87a3fb93-dc3f-4890-9589-d82152f4af75)
+
 Power BI Desktop also includes the Power Query Editor, which opens in a separate window. In Power Query Editor, you can build queries and transform data, then load the refined data model into Power BI Desktop to create reports.
 
 <br>
@@ -54,14 +55,14 @@ Power BI Desktop also includes the Power Query Editor, which opens in a separate
 
 With Power BI Desktop installed, you're ready to connect to the ever-expanding world of data. To see the many types of data sources available, select Get Data > More in the Power BI Desktop Home tab, and in the Get Data window, scroll through the list of All data sources. In this quick tour, you connect to a couple of different Web data sources.
 
-![MSTR](assets/images/power_bi/image005.png)
+![image005](https://github.com/user-attachments/assets/72f39f88-8ce5-4be3-9484-9aa7b255de0b)
 
 Imagine you're a data analyst working for a sunglasses retailer. You want to help your client target sunglasses sales where the sun shines most frequently. The Bankrate.com Best and worst states for retirement page has interesting data on this subject.
 
 On the Power BI Desktop Home tab, select Get Data > Web to connect to a web data source.
 
-![MSTR](assets/images/power_bi/image006.png)
- 
+![image006](https://github.com/user-attachments/assets/25b83eee-cbae-4880-b739-1f313279e601)
+
 In the From Web dialog box, paste the address https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/ into the URL field, and select OK.
 
 ![MSTR](assets/images/power_bi/image007.png)

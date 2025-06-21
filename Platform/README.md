@@ -1,3 +1,5 @@
+# BI Platform
+
 A "BI platform" refers to a comprehensive suite of software tools and capabilities that an organization uses to implement its Business Intelligence strategy. It's more than just a single reporting tool; it's an integrated environment designed to support the entire BI lifecycle, from data connection and preparation to analysis, visualization, reporting, and sharing of insights.
 
 Leading BI platforms are constantly evolving, especially with the rapid advancements in AI, cloud computing, and data accessibility. Here's a look at the major players and the trends shaping these platforms in 2025:

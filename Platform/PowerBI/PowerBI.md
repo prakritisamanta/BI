@@ -1,3 +1,5 @@
+# PowerBI
+
 Power BI is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Your data may be an Excel spreadsheet, or a collection of cloud-based and on-premises hybrid data warehouses. Power BI lets you easily connect to your data sources, visualize and discover what's important, and share that with anyone or everyone you want.
 
 ### Parts of Power BI
@@ -19,6 +21,7 @@ Beyond those three, Power BI also features two other elements:
 - <b>Power BI Report Server</b>, an on-premises report server where you can publish your Power BI reports, after creating them in Power BI Desktop. Read more about Power BI Report Server later in this article.
 
 <br>
+
 ## Power BI Desktop
 
 Power BI Desktop integrates proven Microsoft query engine, data modeling, and visualization technologies. Data analysts and others can create collections of queries, data connections, models, and reports, and easily share them with others. Through the combination of Power BI Desktop and the Power BI service, new insights from the world of data are easier to model, build, share, and extend.
@@ -46,6 +49,7 @@ Along the left side of Power BI Desktop are icons for the three Power BI Desktop
 Power BI Desktop also includes the Power Query Editor, which opens in a separate window. In Power Query Editor, you can build queries and transform data, then load the refined data model into Power BI Desktop to create reports.
 
 <br>
+
 ### Connect to data
 
 With Power BI Desktop installed, you're ready to connect to the ever-expanding world of data. To see the many types of data sources available, select Get Data > More in the Power BI Desktop Home tab, and in the Get Data window, scroll through the list of All data sources. In this quick tour, you connect to a couple of different Web data sources.
@@ -75,6 +79,7 @@ When you select Transform data, Power Query Editor launches, with a representati
 ![MSTR](assets/images/power_bi/image009.png)
 
 <br>
+
 ### Shape data
 
 Now that you're connected to a data source, you can adjust the data to meet your needs. To shape data, you provide Power Query Editor with step-by-step instructions for adjusting the data while loading and presenting it. Shaping doesn't affect the original data source, only this particular view of the data.
@@ -96,6 +101,7 @@ Now that you're connected to a data source, you can adjust the data to meet your
 ![MSTR](assets/images/power_bi/image017.png)
 
 <br>
+
 ### Combine data
 
 The data about various states is interesting, and will be useful for building additional analysis efforts and queries. But there's one problem: most data out there uses two-letter abbreviations for state codes, not the full names of the states. To use that data, you need some way to associate your state names with their abbreviations.
@@ -121,6 +127,7 @@ To import the state abbreviations data into Power Query Editor, select New Sourc
 ![MSTR](assets/images/power_bi/image025.png)
 
 <br>
+
 ### Build reports
 
 In Power BI Desktop Report view, you can build visualizations and reports. The Report view has six main areas:
@@ -161,6 +168,7 @@ You can expand and collapse the Filters, Visualizations, and Fields panes by sel
 ![MSTR](assets/images/power_bi/image037.png)
 
 <br>
+
 ### Share your work
 
 Now that you have a Power BI Desktop report, you can share it with others. There are a few ways to share your work. You can distribute the report .pbix file like any other file, you can upload the .pbix file from the Power BI service, or you can publish directly from Power BI Desktop to the Power BI service. You must have a Power BI account to be able to publish or upload reports to Power BI service.
@@ -184,6 +192,7 @@ To publish to the Power BI service from Power BI Desktop, from the Home tab of t
 ![MSTR](assets/images/power_bi/image045.png)
 
 <br>
+
 # Power BI service
 
 This tutorial is an introduction to some of the features of the Power BI service. In it, you connect to data, create a report and a dashboard, and ask questions of your data. You can do much more in the Power BI service; this tutorial is just to whet your appetite. For an understanding of how the Power BI service fits in with the other Power BI offerings, we recommend reading What is Power BI.
@@ -204,11 +213,13 @@ In this tutorial, you complete the following steps:
 - Clean up resources by deleting the dataset, report, and dashboard.
 
 <br>
+
 ### Sign up for the Power BI service
 
 ![MSTR](assets/images/power_bi/image047.png)
 
 <br>
+
 ### Get data
 
 ![MSTR](assets/images/power_bi/image048.png)
@@ -224,6 +235,7 @@ In this tutorial, you complete the following steps:
 ![MSTR](assets/images/power_bi/image053.png)
 
 <br>
+
 ### Create a chart in a report
 
 ![MSTR](assets/images/power_bi/image054.png)
@@ -244,6 +256,7 @@ In this tutorial, you complete the following steps:
 
 
 <br>
+
 ### Explore with Q&A
 
 For a quick exploration of your data, try asking a question in the Q&A question box. Q&A lets you ask natural-language queries about your data. In a dashboard, the Q&A box is at the top (Ask a question about your data) under the menu bar. In a report, it's in the top menu bar (Ask a question)
@@ -264,6 +277,7 @@ For a quick exploration of your data, try asking a question in the Q&A question 
 
 
 <br>
+
 ### Reposition tiles
 
 We can rearrange the tiles to make better use of the dashboard space.
@@ -277,6 +291,7 @@ We can rearrange the tiles to make better use of the dashboard space.
 ![MSTR](assets/images/power_bi/image072.png)
 
 <br>
+
 ### Clean up resources
 
 Now that you've finished the tutorial, you can delete the dataset, report, and dashboard.

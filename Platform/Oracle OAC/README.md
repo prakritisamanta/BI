@@ -1,3 +1,5 @@
+# Oracle Analytics Cloud (OAC)
+
 **Oracle Analytics Cloud (OAC)** is Oracle's flagship cloud-based platform for Business Intelligence (BI) and analytics. It's a comprehensive, fully managed service designed to empower organizations with self-service data discovery, augmented analytics, enterprise reporting, and advanced analytical capabilities, all within the Oracle Cloud Infrastructure (OCI).
 
 OAC is essentially the evolution of Oracle's long-standing on-premise BI solution, Oracle Business Intelligence Enterprise Edition (OBIEE), adapted and significantly enhanced for the cloud. While OBIEE focused primarily on traditional descriptive analytics and reporting, OAC expands into predictive analytics, machine learning (ML), and AI-driven insights, offering a more modern and dynamic analytics experience.

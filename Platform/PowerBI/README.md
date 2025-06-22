@@ -73,11 +73,11 @@ The query functionality of Power BI Desktop goes to work and contacts the web re
 
 At this point you can select Load to load the table, or Transform data to make changes in the table before you load it.
 
-![MSTR](assets/images/power_bi/image008.jpg)
+![image008](https://github.com/user-attachments/assets/1ef58a7a-3f07-4ef5-817a-6192e7c27de2)
 
 When you select Transform data, Power Query Editor launches, with a representative view of the table. The Query Settings pane is on the right, or you can always show it by selecting Query Settings on the View tab of Power Query Editor.
 
-![MSTR](assets/images/power_bi/image009.png)
+![image009](https://github.com/user-attachments/assets/e7d6268e-7b03-489a-b9b0-6533e2c5fca4)
 
 <br>
 
@@ -85,21 +85,21 @@ When you select Transform data, Power Query Editor launches, with a representati
 
 Now that you're connected to a data source, you can adjust the data to meet your needs. To shape data, you provide Power Query Editor with step-by-step instructions for adjusting the data while loading and presenting it. Shaping doesn't affect the original data source, only this particular view of the data.
 
-![MSTR](assets/images/power_bi/image010.png)
+![image010](https://github.com/user-attachments/assets/92a620df-9ce1-4772-99ea-40c122915219)
 
-![MSTR](assets/images/power_bi/image011.png)
+![image011](https://github.com/user-attachments/assets/637ae60b-7e83-4341-9850-63850438d590)
 
-![MSTR](assets/images/power_bi/image012.png)
+![image012](https://github.com/user-attachments/assets/badb80d8-4fb7-422d-9f79-6142a6a13b44)
 
-![MSTR](assets/images/power_bi/image013.png)
+![image013](https://github.com/user-attachments/assets/55216fe1-4c52-4fe2-85c9-6e47df9f855d)
 
-![MSTR](assets/images/power_bi/image014.png)
+![image014](https://github.com/user-attachments/assets/cf4aa83d-0f70-4088-9150-146f25a38d2c)
 
-![MSTR](assets/images/power_bi/image015.png)
+![image015](https://github.com/user-attachments/assets/3e6838d6-fae4-4835-93fe-264a6a914b77)
 
-![MSTR](assets/images/power_bi/image016.png)
+![image016](https://github.com/user-attachments/assets/6a96a107-d7be-44dc-8e2c-04a2dfe4f9df)
 
-![MSTR](assets/images/power_bi/image017.png)
+![image017](https://github.com/user-attachments/assets/f7242d81-b397-4fb1-ba6c-489a3afa02f4)
 
 <br>
 
@@ -111,21 +111,21 @@ You're in luck. Another public data source does just that, but the data will nee
 
 To import the state abbreviations data into Power Query Editor, select New Source > Web from the New Query group on the Home tab of the ribbon.
 
-![MSTR](assets/images/power_bi/image018.png)
+![image018](https://github.com/user-attachments/assets/b9a6ef1f-74d0-4b1f-8cb3-2a490a42183a)
 
-![MSTR](assets/images/power_bi/image019.png)
+![image019](https://github.com/user-attachments/assets/a09cdce1-84c5-4c9f-92ac-b1c2d48d4ec6)
 
-![MSTR](assets/images/power_bi/image020.png)
+![image020](https://github.com/user-attachments/assets/5daab617-4009-46a9-853a-d463dcee7815)
 
-![MSTR](assets/images/power_bi/image021.png)
+![image021](https://github.com/user-attachments/assets/7a31a9cc-8f82-415e-ae7e-3de061530447)
 
-![MSTR](assets/images/power_bi/image022.png)
+![image022](https://github.com/user-attachments/assets/193ba1c5-cd07-4d0d-a3b7-e28359fab728)
 
-![MSTR](assets/images/power_bi/image023.png)
+![image023](https://github.com/user-attachments/assets/22af274e-fe72-4e43-86ce-5944f1fcfd7d)
 
-![MSTR](assets/images/power_bi/image024.png)
+![image024](https://github.com/user-attachments/assets/868d6e1b-cefc-4bd3-8e8f-05c9cd36c5c0)
 
-![MSTR](assets/images/power_bi/image025.png)
+![image025](https://github.com/user-attachments/assets/52c467b8-53a0-4325-8a22-f17c72dda3d1)
 
 <br>
 
@@ -133,7 +133,7 @@ To import the state abbreviations data into Power Query Editor, select New Sourc
 
 In Power BI Desktop Report view, you can build visualizations and reports. The Report view has six main areas:
 
-![MSTR](assets/images/power_bi/image026.png)
+<img width="714" alt="image026" src="https://github.com/user-attachments/assets/eb5ba6d0-9be4-423b-8e60-0cfc1653582f" />
 
 1.	The ribbon at the top, which displays common tasks associated with reports and visualizations.
 2.	The canvas area in the middle, where you create and arrange visualizations.
@@ -146,27 +146,27 @@ In Power BI Desktop Report view, you can build visualizations and reports. The R
 You can expand and collapse the Filters, Visualizations, and Fields panes by selecting the arrows at the tops of the panes. Collapsing the panes provides more space on the canvas to build cool visualizations.
 
 <br>
-![MSTR](assets/images/power_bi/image027.png)
+![image027](https://github.com/user-attachments/assets/0b25c00a-a2f8-4463-bcdf-fc480a682dbd)
 
-![MSTR](assets/images/power_bi/image028.png)
+![image028](https://github.com/user-attachments/assets/9124c5bb-b0b8-428a-8d22-c2ea98c3b7c4)
 
-![MSTR](assets/images/power_bi/image029.png)
+<img width="161" alt="image029" src="https://github.com/user-attachments/assets/d02088e7-186a-476e-8b75-df214a63ce11" />
 
-![MSTR](assets/images/power_bi/image030.png)
+<img width="459" alt="image030" src="https://github.com/user-attachments/assets/7e591604-5a07-4d50-9acc-9800eec9e92e" />
 
-![MSTR](assets/images/power_bi/image031.png)
+<img width="698" alt="image031" src="https://github.com/user-attachments/assets/097eae62-5381-4a78-acbf-9b17336bb5b4" />
 
-![MSTR](assets/images/power_bi/image032.png)
+<img width="585" alt="image032" src="https://github.com/user-attachments/assets/e272f168-c82f-4a82-91ce-86e8cae6db0a" />
 
-![MSTR](assets/images/power_bi/image033.png)
+<img width="346" alt="image033" src="https://github.com/user-attachments/assets/24d92498-5b00-4d57-a51b-f1c59e7843a8" />
 
-![MSTR](assets/images/power_bi/image034.png)
+<img width="584" alt="image034" src="https://github.com/user-attachments/assets/c5ccd537-eef8-49a7-bc94-c4b929a250b3" />
 
-![MSTR](assets/images/power_bi/image035.png)
+<img width="474" alt="image035" src="https://github.com/user-attachments/assets/2f382322-e5fa-440f-81e0-5952857f6ec9" />
 
-![MSTR](assets/images/power_bi/image036.png)
+![image036](https://github.com/user-attachments/assets/af20dec7-84e2-4483-b28c-175bf026a8a7)
 
-![MSTR](assets/images/power_bi/image037.png)
+<img width="711" alt="image037" src="https://github.com/user-attachments/assets/117d9c6c-c677-4680-a746-2087670171c3" />
 
 <br>
 
@@ -176,21 +176,21 @@ Now that you have a Power BI Desktop report, you can share it with others. There
 
 To publish to the Power BI service from Power BI Desktop, from the Home tab of the ribbon, select Publish.
 
-![MSTR](assets/images/power_bi/image038.png)
+![image038](https://github.com/user-attachments/assets/5df238d6-384c-4c33-9335-c56c80e31771)
 
-![MSTR](assets/images/power_bi/image039.png)
+![image039](https://github.com/user-attachments/assets/09fcbd9c-6d98-4a33-ad2d-1d5313a946f3)
 
-![MSTR](assets/images/power_bi/image040.png)
+![image040](https://github.com/user-attachments/assets/36fcfcfe-2494-424d-8ad0-a3930915c080)
 
-![MSTR](assets/images/power_bi/image041.png)
+![image041](https://github.com/user-attachments/assets/52478fc7-04f4-480d-8c83-6731e1a58397)
 
-![MSTR](assets/images/power_bi/image042.png)
+![image042](https://github.com/user-attachments/assets/03e3e0bf-da9f-419e-841a-dbd1afe78578)
 
-![MSTR](assets/images/power_bi/image043.png)
+![image043](https://github.com/user-attachments/assets/55f64a66-5bf7-4dd4-9f40-8d89f4be2287)
 
-![MSTR](assets/images/power_bi/image044.png)
+![image044](https://github.com/user-attachments/assets/bdf24fec-c02a-4540-8f93-2d16bb2d7f64)
 
-![MSTR](assets/images/power_bi/image045.png)
+![image045](https://github.com/user-attachments/assets/ecb26be8-2fcd-4974-875e-98dcb6b8653d)
 
 <br>
 
@@ -200,8 +200,8 @@ This tutorial is an introduction to some of the features of the Power BI service
 
 Are you a report reader rather than a creator? Getting around in the Power BI service is a good starting place for you.
 
-![MSTR](assets/images/power_bi/image046.png)
- 
+<img width="641" alt="image046" src="https://github.com/user-attachments/assets/8571cedb-352b-4beb-b6bf-7ccd949f963a" />
+
 In this tutorial, you complete the following steps:
 
 - Sign in to your Power BI online account, or sign up, if you don't have an account yet.
@@ -217,31 +217,31 @@ In this tutorial, you complete the following steps:
 
 ### Sign up for the Power BI service
 
-![MSTR](assets/images/power_bi/image047.png)
+![image047](https://github.com/user-attachments/assets/e8b22624-cbff-4a3b-9eab-b47f5774e039)
 
 <br>
 
 ### Get data
 
-![MSTR](assets/images/power_bi/image048.png)
+![image048](https://github.com/user-attachments/assets/b875dc57-c5ed-42b7-9641-1d994ab0ef31)
 
-![MSTR](assets/images/power_bi/image049.png)
+![image049](https://github.com/user-attachments/assets/1d016813-8c3b-4707-b5be-0cfcad38dd9b)
 
-![MSTR](assets/images/power_bi/image050.png)
+![image050](https://github.com/user-attachments/assets/562c5e94-3920-4000-a4aa-c8fe2305dd20)
 
-![MSTR](assets/images/power_bi/image051.png)
+<img width="849" alt="image051" src="https://github.com/user-attachments/assets/86ec7183-4a54-4fad-82a0-6d7730b4ad7d" />
 
-![MSTR](assets/images/power_bi/image052.png)
+![image052](https://github.com/user-attachments/assets/c6da9c69-50f4-4f6b-879b-b7d265f13155)
 
-![MSTR](assets/images/power_bi/image053.png)
+![image053](https://github.com/user-attachments/assets/bc66ebaa-f28b-43a0-8678-0b5e326815b4)
 
 <br>
 
 ### Create a chart in a report
 
-![MSTR](assets/images/power_bi/image054.png)
+![image054](https://github.com/user-attachments/assets/4755702b-17eb-4b56-892f-1c480bc1ed28)
 
-![MSTR](assets/images/power_bi/image055.png)
+![image055](https://github.com/user-attachments/assets/89319478-14a5-4959-8b63-c2006e99e2bb)
 
 ![MSTR](assets/images/power_bi/image056.png)
 

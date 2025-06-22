@@ -65,7 +65,7 @@ On the Power BI Desktop Home tab, select Get Data > Web to connect to a web data
 
 In the From Web dialog box, paste the address https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/ into the URL field, and select OK.
 
-![MSTR](assets/images/power_bi/image007.png)
+![image007](https://github.com/user-attachments/assets/db1a8001-1af8-4be0-be32-1719636fc3f3)
 
 If prompted, on the Access Web Content screen, select Connect to use anonymous access.
 

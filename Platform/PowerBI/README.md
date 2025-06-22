@@ -243,9 +243,9 @@ In this tutorial, you complete the following steps:
 
 ![image055](https://github.com/user-attachments/assets/89319478-14a5-4959-8b63-c2006e99e2bb)
 
-![MSTR](assets/images/power_bi/image056.png)
+<img width="267" alt="image056" src="https://github.com/user-attachments/assets/443846a8-cba3-442d-80c8-6342fbbca0bb" />
 
-![MSTR](assets/images/power_bi/image057.png)
+![image057](https://github.com/user-attachments/assets/c24f409b-3db6-44c4-9a1b-4b0b9d76c2de)
 
 ![MSTR](assets/images/power_bi/image058.png)
 

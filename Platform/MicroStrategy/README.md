@@ -29,6 +29,7 @@ Gartner defines a BI platform as a software platform that delivers few capabilit
 * Scorecards
 
 <br>
+
 ## MicroStrategy
 MicroStrategy is an enterprise business intelligence (BI) application software. The MicroStrategy platform supports interactive dashboards, scorecards, highly formatted reports, ad hoc query, thresholds and alerts, and automated report distribution. Interfaces include web, desktop (for developers) and Microsoft Office integration. MicroStrategy Mobile also supports mobile BI.
 
@@ -46,6 +47,7 @@ MicroStrategy was founded in 1989 by Michael Saylor (CEO), Sanju Bansal (COO) an
 With all of the requirements of an enterprise class business intelligence system in mind, MicroStrategy has produced a tightly integrated platform solution written in c++ and Java with Visual Basic, J2EE and .NET interfaces. There are two front end layers - one built using JSP, the other using ASP.NET - which provides the flexibility to run on Microsoft Windows, Sun Solaris, IBM AIX, Red Hat Linux, SUSE Linux or BP-UX operating systems.
 
 <br>
+
 `Benefits`
 
 * Rich functionality for end users
@@ -58,6 +60,7 @@ With all of the requirements of an enterprise class business intelligence system
 * Rapid query performance
 
 <br>
+
 ### Components
 
 It has the following components:
@@ -69,6 +72,7 @@ It has the following components:
 * MicroStrategy products
 
 <br>
+
 `Source Systems (OLTP) `
 
 Source systems are typically databases, file sources, web sources or mainframes that store transaction processing data. Transaction processing involves simple recording of transactions.
@@ -76,6 +80,7 @@ Source systems are typically databases, file sources, web sources or mainframes 
 A bank is one example of a business with many different types of source systems. The average bank offers their customers a variety of services and, therefore, needs these different types of source systems to support their services. For example, consider the Automated Teller Machine (ATM). At an ATM, you can withdraw or deposit money as well as check your account balance. However, if you need a money order, you have to go inside and speak with a bank teller. The bank has different operational systems, each designed to perform tasks that are specific to the service. If the bank wants to see an unified view of a particular customer, all the information for each source system hato to be collcted and stored in a centralized data warehouse.
 
 <br>
+
 `Data Warehouse (OLAP)`
 
 A well-designed and robust data warehouse lies at the heart of the business intelligence system and enables its users to leverage the competitive advantage that BI provides. 
@@ -83,16 +88,19 @@ A well-designed and robust data warehouse lies at the heart of the business inte
 While source systems are designed and optimized for transaction processing, data warehouses are designed and optimized for analytical processing. Analytical processing involves manipulating transaction records to calculate sales trends, growth patterns, percent to total contributions, trend reporting, profit analysis, and so forth. 
 
 <br>
+
 `ETL Process`
 
 The extraction, transformation, and loading (ETL) process contains information that facilitates the transfer of the data from the source systems to the data warehouse. 
 
 <br>
+
 `Metadata`
 
 It is the repository that stores MicroStrategy object definitions and information about the data warehouse in a proprietary format. It maps MicroStrategy objects which are used to build reports and analyze data to the data warehouse structures and content. 
 
 <br>
+
 ### MicroStrategy Products
 
 The MicroStrategy applications allow you to interact with the BI system. They allow you to logically organize data hierarchically to create, calculate and analyze complex data relationships. They also provide the ability to look at data from many different perspectives. 

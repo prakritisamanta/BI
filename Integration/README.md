@@ -2,6 +2,8 @@
 
 Data integration is the crucial process of combining data from various disparate sources into a unified, coherent, and valuable dataset. The primary goal is to provide a comprehensive and accurate view of information, enabling businesses to make better-informed decisions, improve efficiency, enhance customer experiences, and drive advanced analytics like AI and machine learning.
 
+![gartner_2023](https://github.com/user-attachments/assets/291c8dbf-1fd1-4ab5-bb23-eee5d25ccf88)
+
 Here's a detailed breakdown:
 
 ### Why is Data Integration Important?

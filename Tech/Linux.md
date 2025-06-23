@@ -357,6 +357,8 @@ sort data.txt | uniq
 ```
 This will remove any duplicated lines in data.txt after sorting. uniq gives you control over filtering repeated text.
 
+<br>
+
 #### 16. diff – Compare Files Line By Line
 The diff command compares two files line-by-line and prints the differences. It’s commonly used to show changes between versions of files.
 
@@ -374,6 +376,8 @@ For example:
 diff original.txt updated.txt
 ```
 This will output the lines that differ between original.txt and updated.txt. diff is invaluable for comparing revisions of text files and source code.
+
+<br>
 
 #### 17. wc – Print Line, Word, And Byte Counts
 The wc (word count) command prints counts of lines, words, and bytes in a file.
@@ -398,6 +402,8 @@ This command will print the number of lines, words, and bytes in report.txt.
 ### Redirection Commands In Linux
 Redirection commands are used to control input and output sources in Linux, allowing you to send and append output streams to files, take input from files, connect multiple commands, and split output to multiple destinations.
 
+<br>
+
 #### 18. > – Redirect Standard Output
 The > redirection operator redirects the standard output stream from the command to a file instead of printing to the terminal. Any existing contents of the file will be overwritten.
 
@@ -411,6 +417,8 @@ Then, instead of printing that output to the terminal, the > symbol captures tha
 
 Redirecting standard output is helpful for saving command results to files for storage, debugging, or chaining commands together.
 
+<br>
+
 #### 19. >> – Append Standard Output
 The >> operator appends standard output from a command to a file without overwriting existing contents.
 
@@ -421,6 +429,8 @@ tail /var/log/syslog >> logfile.txt
 This will append the last 10 lines of the syslog log file onto the end of logfile.txt. Unlike >, >> adds the output without erasing the current logfile.txt contents.
 
 Appending is helpful in collecting command output in one place without losing existing data.
+
+<br>
 
 #### 20. < – Redirect Standard Input
 The < redirection operator feeds a file’s contents as standard input to a command, instead of taking input from the keyboard.
@@ -433,6 +443,8 @@ This sends the contents of myfile.txt as input to the wc command, which will cou
 
 Redirecting input is useful for batch-processing files and automating workflows.
 
+<br>
+
 #### 21. | – Pipe Output To Another Command
 The pipe | operator sends the output from one command as input to another command, chaining them together.
 
@@ -443,6 +455,8 @@ ls -l | less
 This pipes the output of ls -l into the less command, which allows scrolling through the file listing.
 
 Piping is commonly used to chain together commands where the output of one feeds the input of another. This allows building complex operations out of smaller single-purpose programs.
+
+<br>
 
 #### 22. tee – Read From Standard Input And Write To Standard Output And Files
 The tee command splits standard input into two streams.
@@ -461,6 +475,8 @@ tee is unlike redirecting, where you don’t see the output until you open the f
 <br><br>
 ### Archive Commands
 Archiving commands allow you to bundle multiple files and directories into compressed archive files for easier portability and storage. Common archive formats in Linux include .tar, .gz, and .zip.
+
+<br>
 
 #### 23. tar – Store And Extract Files From An Archive
 The tar command helps you work with tape archive (.tar) files. It helps you bundle multiple files and directories into a single compressed .tar file.
@@ -482,6 +498,8 @@ tar -cvzf images.tar.gz /home/user/images
 ```
 This creates a gzip-compressed tar archive called images.tar.gz containing the /home/user/images folder.
 
+<br>
+
 #### 24. gzip – Compress Or Expand Files
 The gzip command compresses files using LZ77 coding to reduce size for storage or transmission. With gzip, you work with .gz files.
 
@@ -500,6 +518,8 @@ gzip -cr documents/
 ```
 The above command recursively compresses the documents folder and outputs to stdout.
 
+<br>
+
 #### 25. gunzip – Decompress Files
 The gunzip command is used for decompressing .gz files.
 
@@ -512,6 +532,8 @@ Example:
 gunzip documents.tar.gz
 ```
 The above command will extract the original uncompressed contents of documents.tar.gz.
+
+<br>
 
 #### 26. zip – Package And Compress Files
 The zip command creates .zip archived files containing compressed file contents.
@@ -529,6 +551,8 @@ Example:
 zip -re images.zip pictures
 ```
 This encrypts and compresses the pictures folder into images.zip.
+
+<br>
 
 #### 27. unzip – Extract Files From ZIP Archives
 Similar to gunzip, the unzip command extracts and uncompresses files from .zip archives.
@@ -563,6 +587,8 @@ This securely copies image.jpg to the /uploads folder on server as user.
 
 scp works like the cp command but for remote file transfer. It leverages SSH (Secure Shell) for data transfer, providing encryption to ensure that no sensitive data, such as passwords, are exposed over the network. Authentication is typically handled using SSH keys, though passwords can also be used. Files can be copied both to and from remote hosts.
 
+<br>
+
 #### 29. rsync – Synchronize Files Between Hosts
 The rsync tool synchronizes files between two locations while minimizing data transfer using delta encoding. This makes it faster to sync large directory trees.
 
@@ -584,6 +610,8 @@ Useful rsync options:
 ```
 rsync is ideal for syncing files and folders to remote systems and keeping things decentrally backed up and secure.
 
+<br>
+
 #### 30. sftp – Secure File Transfer Program
 The sftp program provides interactive file transfers over SSH, similar to regular FTP but encrypted. It can transfer files to/from remote systems.
 
@@ -598,6 +626,8 @@ put localfile remotefile
 This retrieves remotefile from the server and copies localfile to the remote host.
 
 sftp has an interactive shell for navigating remote file systems, transferring files and directories, and managing permissions and properties.
+
+<br>
 
 #### 31. wget – Retrieve Files from the Web
 The wget tool downloads files over HTTP, HTTPS, and FTP connections. It’s useful for retrieving web resources directly from the terminal.
@@ -615,6 +645,8 @@ Useful wget options:
 -O – Save to specific filename.
 ```
 wget is ideal for scripting automatic downloads and mirroring websites.
+
+<br>
 
 #### 32. curl – Transfer Data From Or To A Server
 The curl command transfers data to or from a network server using supported protocols. This includes REST, HTTP, FTP, and more.
@@ -659,6 +691,8 @@ The g+w syntax adds group write permission to the file.
 ```
 Setting proper file and directory permissions is crucial for Linux security and controlling access. chmod gives you flexible control to configure permissions precisely as needed.
 
+<br>
+
 #### 34. chown – Change File Owner And Group
 The chown command changes ownership of a file or directory. Ownership has two components—the user who is the owner, and the group it belongs to.
 
@@ -669,6 +703,8 @@ chown john:developers file.txt
 The above example command will set the owner user to “john” and the owner group to “developers.”
 
 Only the root superuser account can use chown to change file owners. It’s used to fix permission problems by modifying the owner and group as needed.
+
+<br>
 
 #### 35. umask – Set Default File Permissions
 The umask command controls the default permissions given to newly created files. It takes an octal mask as input, which subtracts from 666 for files and 777 for directories.
@@ -702,6 +738,8 @@ aux – Show processes for all users
 ```
 ps gives you visibility into what’s currently running on your system.
 
+<br>
+
 #### 37. top – Display Linux Processes
 The top command shows real-time Linux process information, including PID, user, CPU %, memory usage, uptime, and more. Unlike ps, it updates the display dynamically to reflect current usage.
 
@@ -710,6 +748,8 @@ For example:
 top -u mysql
 ```
 The above command monitors processes just for the “mysql” user. It becomes quite helpful in identifying resource-intensive programs.
+
+<br>
 
 #### 38. htop – Interactive Process Viewer
 The htop command is an interactive process viewer replacing the top command. It shows system processes along with CPU/memory/swap usage graphs, allows sorting by columns, killing programs, and more.
@@ -720,6 +760,8 @@ htop has enhanced UI elements with colors, scrolling, and mouse support for easi
 
 bar graph showing that developers prefer Linux (76.9%) compared to Docker (73.6%) and Kubernetes (71.1%)
 
+<br>
+
 #### 39. kill – Send A Signal To A Process
 The kill command sends a signal to a process to terminate or kill it. Signals allow graceful shutdown if the process handles them.
 
@@ -729,6 +771,8 @@ kill -15 12345
 ```
 The above command sends the SIGTERM (15) signal to stop the process with PID 12345 gracefully.
 
+<br>
+
 #### 40. pkill – Send A Signal To A Process Based On Name
 The pkill command kills processes by name instead of PID. It can make things easier than finding the PID first.
 
@@ -737,6 +781,8 @@ For example:
 pkill -9 firefox
 ```
 This forcibly stops all Firefox processes with SIGKILL (9). pkill targets processes by matching name, user, and other criteria instead of the PID.
+
+<br>
 
 #### 41. nohup – Run A Command Immune To Hangups
 The nohup command runs processes immune to hangups, so they keep running if you log out or get disconnected.
@@ -768,6 +814,8 @@ Other useful vmstat options:
 ```
 The example above outputs memory and CPU data every 5 seconds until interrupted, which is useful for monitoring live system performance.
 
+<br>
+
 #### 43. iostat – Report CPU And I/O Statistics
 The iostat command monitors and displays CPU utilization and disk I/O metrics. This includes CPU load, IOPS, read/write throughput, and more.
 
@@ -787,6 +835,8 @@ This shows detailed per-device I/O stats for sda every 5 seconds.
 
 iostat helps analyze disk subsystem performance and identify hardware bottlenecks.
 
+<br>
+
 #### 44. free – Display Amount Of Free And Used Memory
 The free command shows the total, used and free amounts of physical and swap memory on the system. This gives an overview of available memory.
 
@@ -803,6 +853,8 @@ Some options for the free command:
 ```
 This prints memory statistics in human-readable format (GB, MB, etc). It’s useful when you want a quick overview of memory capacity.
 
+<br>
+
 #### 45. df – Report File System Disk Space Usage
 The df command displays disk space usage for file systems. It shows the filesystem name, total/used/available space, and capacity.
 
@@ -811,6 +863,8 @@ For example:
 df -h
 ```
 The above command will print the disk utilization in a human-readable format. You can also run it without arguments to get the same data in block sizes.
+
+<br>
 
 #### 46. sar – Collect And Report System Activity
 The sar tool collects and logs system activity information on CPU, memory, I/O, network, and more over time. This data can be analyzed to identify performance issues.
@@ -843,6 +897,8 @@ Useful useradd options:
 ```
 The above command will create a new user, “john,” with a generated UID and home folder created at /home/john.
 
+<br>
+
 #### 48. usermod – Modify A User Account
 The usermod command modifies the settings of an existing user account. This can change the username, home dir, shell, group, expiry date, etc.
 
@@ -851,6 +907,8 @@ For example:
 usermod -aG developers john
 ```
 With this command, you add a user john to an additional group—“developers.” The -a appends to the existing list of groups that the user is added to.
+
+<br>
 
 #### 49. userdel – Delete A User Account
 The userdel command deletes a user account, home directory, and mail spool.
@@ -868,6 +926,8 @@ This forces the removal of user “john,” deleting associated files.
 
 Specifying options like -r and -f with userdel ensures the user account is entirely deleted even if the user is logged in or has active processes.
 
+<br>
+
 #### 50. groupadd – Add A Group
 The groupadd command creates a new user group. Groups represent teams or roles for permissions purposes.
 
@@ -881,6 +941,8 @@ Useful groupadd options:
 -g – Specify the new group’s GID instead of using next available.
 ```
 The above command creates a new “sysadmin” group with system privileges. When creating new groups, the -r or -g help set them up correctly.
+
+<br>
 
 #### 51. passwd – Update User’s Authentication Tokens
 The passwd command sets or updates a user’s authentication password/tokens. This allows changing your login password.
@@ -918,6 +980,8 @@ Useful ping options:
 ```
 With the above command, you ping google.com and outputs round-trip stats indicating connectivity and latency. Generally, ping is used to check if a system you’re trying to connect to is alive and connected to the network.
 
+<br>
+
 #### 53. ifconfig – Configure Network Interfaces
 The ifconfig command displays and configures network interface settings, including IP address, netmask, broadcast, MTU, and hardware MAC address.
 
@@ -935,6 +999,8 @@ TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
 Running ifconfig with no other arguments will give you a list of all the network interfaces available for use, along with IP and additional network information. ifconfig can also be used to set addresses, enable/disable interfaces, and change options.
 
+<br>
+
 #### 54. netstat – Network Statistics
 The netstat command shows you the network connections, routing tables, interface stats, masquerade connections, and multicast memberships.
 
@@ -943,6 +1009,8 @@ For example:
 netstat -pt tcp
 ```
 This command will output all the active TCP connections and the processes using them.
+
+<br>
 
 #### 55. ss – Socket Statistics
 The ss command dumps socket statistical information similar to netstat. It can show open TCP and UDP sockets, send/receive buffer sizes, and more.
@@ -953,6 +1021,8 @@ ss -t -a
 ```
 This prints all open TCP sockets. More efficient than netstat.
 
+<br>
+
 #### 56. traceroute – Trace Route To Host
 The traceroute command prints the route packets take to a network host, showing each hop along the way and transit times. Useful for network debugging.
 
@@ -961,6 +1031,8 @@ For example:
 traceroute google.com
 ```
 This traces the path to reach google.com and outputs each network hop.
+
+<br>
 
 #### 57. dig - DNS Lookup
 The dig command performs DNS lookups and returns information about DNS records for a domain.
@@ -985,6 +1057,8 @@ google.com. 220 IN A 142.251.42.78
 ;; MSG SIZE  rcvd: 55
 ```
 This queries DNS servers for records related to google.com and prints details.
+
+<br>
 
 #### 58. nslookup – Query Internet Name Servers Interactively
 The nslookup command queries DNS servers interactively to perform name resolution lookups or display DNS records.
@@ -1026,6 +1100,8 @@ github.com mail exchanger = 10 alt4.aspmx.l.google.com.
 ```
 The interactive queries make nslookup very useful for exploring DNS and troubleshooting name resolution issues.
 
+<br>
+
 #### 59. iptables – IPv4 Packet Filtering And NAT
 The iptables command allows configuring Linux netfilter firewall rules to filter and process network packets. It sets up policies and rules for how the system will handle different types of inbound and outbound connections and traffic.
 
@@ -1036,6 +1112,8 @@ iptables -A INPUT -s 192.168.1.10 -j DROP
 The above command will block all input from IP 192.168.1.10.
 
 iptables provides powerful control over the Linux kernel firewall to handle routing, NAT, packet filtering, and other traffic control. It is a critical tool for securing Linux servers.
+
+<br>
 
 #### 60. ip – Manage Network Devices And Routing
 The ip command allows managing and monitoring various network device related activities like assigning IP addresses, setting up subnets, displaying link details, and configuring routing options.
@@ -1076,6 +1154,8 @@ And this command upgrades packages and dependencies to newer versions.
 
 APT makes installing software easy by fetching packages from repositories.
 
+<br>
+
 #### 62. pacman – Arch Linux Package Manager
 pacman manages packages on Arch Linux from the Arch User Repository. It can install, upgrade, and remove packages.
 
@@ -1090,6 +1170,8 @@ pacman -Syu
 This synchronizes with repositories and upgrades all packages.
 
 pacman keeps Arch Linux up-to-date and allows easy management of packages.
+
+<br>
 
 #### 63. dnf – Fedora Package Manager
 dnf installs, updates, and removes packages on Fedora Linux distributions using RPM packages. It replaces Yum as the next-gen package manager.
@@ -1106,6 +1188,8 @@ This upgrades all installed packages to the latest versions.
 
 dnf makes Fedora package management fast and efficient.
 
+<br>
+
 #### 64. yum – Red Hat Package Manager
 yum manages packages on RHEL and CentOS Linux distributions using RPM packages. It fetches from Yum repositories to install and update.
 
@@ -1118,6 +1202,8 @@ This updates all installed packages to the latest versions.
 yum install httpd
 ```
 The above command installs the Apache httpd package. yum has been the major package manager for keeping Red Hat distributions updated.
+
+<br>
 
 #### 65. zypper – OpenSUSE Package Manager
 zypper manages packages on SUSE/openSUSE Linux. It can add repositories, search, install, and upgrade packages.
@@ -1132,6 +1218,8 @@ zypper install python
 ```
 This installs the Python package from configured repositories. zypper makes the package management experience effortless on SUSE/openSUSE systems.
 
+<br>
+
 #### 66. flatpak – Flatpak Application Package Manager
 The flatpak command helps you manage Flatpak applications and runtimes. flatpak allows sandboxed desktop application distribution across Linux.
 
@@ -1145,6 +1233,8 @@ flatpak run org.libreoffice.LibreOffice
 ```
 And this one launches the sandboxed LibreOffice Flatpak application. flatpak provides a centralized cross-distro Linux application repository so you’re no longer limited to packages available with a specific distro’s package library.
 
+<br>
+
 #### 67. appimage – AppImage Application Package Manager
 AppImage packages are self-contained applications that run on most Linux distributions. The appimage command runs existing AppImages.
 
@@ -1156,6 +1246,8 @@ chmod +x myapp.AppImage
 This allows running the AppImage binary file directly.
 
 AppImages allow application deployment without system-wide installation. Think of them like small containers that include all the files to enable the app to run without too many external dependencies.
+
+<br>
 
 #### 68. snap – Snappy Application Package Manager
 The snap command manages snaps—containerized software packages. Snaps auto-update and work across Linux distributions similar to Flatpak.
@@ -1193,6 +1285,8 @@ uname -r
 ```
 This will print only the kernel release number. The uname command shows details about your Linux system’s core components.
 
+<br>
+
 #### 70. hostname – Show Or Set The System’s Host Name
 The hostname command prints or sets the hostname identifier for your Linux system on the network. With no arguments it displays the current hostname. Passing a name will update the hostname.
 
@@ -1207,6 +1301,8 @@ hostname UbuntuServer
 ```
 hostnames identify systems on a network. hostname gets or configures the identifying name of your system on the network. The second command helps you change the local hostname to UbuntuServer.
 
+<br>
+
 #### 71. uptime – How Long The System Has Been Running
 The uptime command shows how long the Linux system has been running since it was last rebooted. It prints the uptime and current time.
 
@@ -1217,6 +1313,8 @@ uptime
 ```
 This prints the system uptime showing how long the system has been on since last boot.
 
+<br>
+
 #### 72. whoami – Print Active User ID
 The whoami command prints the effective username of the current user logged into the system. It displays the privilege level you are operating at.
 
@@ -1226,6 +1324,8 @@ whoami
 john
 ```
 This prints the effective username that the current user is logged in and operating as and is useful in scripts or diagnostics to identify what user account actions are being performed as.
+
+<br>
 
 #### 73. id – Print Real And Effective User And Group IDs
 The id command prints detailed user and group information about the effective IDs and names of the current user. This includes:
@@ -1240,6 +1340,8 @@ id
 uid=1000(john) gid=1000(john) groups=1000(john),10(wheel),998(developers)
 ```
 The id command prints the current user’s real and effective user and group IDs. id displays user and group details useful for determining file access permissions.
+
+<br>
 
 #### 74. lscpu – Display CPU Architecture Information
 The lscpu command shows detailed CPU architecture information, including:
@@ -1261,6 +1363,8 @@ On-line CPU(s) list: 0-15
 ```
 lscpu details the CPU architecture like the number of cores, sockets, model name, caches, and more.
 
+<br>
+
 #### 75. lsblk – List Block Devices
 The lsblk command lists information about all available block devices, including local disks, partitions, and logical volumes. The output includes device names, labels, sizes, and mount points.
 ```
@@ -1273,6 +1377,8 @@ sda       8:0    0   1.8T  0 disk
 `-lvm1 254:0    0   1.8T  0 lvm   /
 ```
 lsblk lists all the block devices, including disks, partitions, and logical volumes. Gives an overview of storage devices.
+
+<br>
 
 #### 76. lsmod – Show The Status of Modules In The Linux Kernel
 The lsmod command prints currently loaded kernel modules like device drivers. This includes networking, storage, and other hardware-related modules being used by the Linux kernel to interface with internal and external devices.
@@ -1288,6 +1394,8 @@ aesni_intel           399871  0
 aes_x86_64             20274  1 aesni_intel
 ```
 As you can see, it lists the currently loaded kernel modules like device drivers. In this case, it shows the use of networking, input, cryptographic and encryption modules.
+
+<br>
 
 #### 77. dmesg – Print Or Control The Kernel Ring Buffer
 The dmesg command dumps messages from the kernel ring buffer. This includes essential system events recorded by the kernel during start-up and operation.
@@ -1318,6 +1426,8 @@ User ‘bob’ has been added to the system.
 
 This uses sudo to create a new user, ‘bob’. Regular users typically cannot add users without sudo.
 
+<br>
+
 #### 79. su – Change User ID Or Become Superuser
 The su command allows you to switch to another user account including the superuser. You must provide the target user’s password to authenticate. This gives direct access to run commands in another user’s environment.
 
@@ -1328,6 +1438,8 @@ Password:
 bob@linux:~$
 ```
 After inputting bob’s password, this command switches the current user to the user ‘bob’. The shell prompt will reflect the new user.
+
+<br>
 
 #### 80. shutdown – Shutdown Or Restart Linux
 The shutdown command schedules a system power off, halt or reboot after a specified timer or immediately. It’s required to reboot or shutdown multi-user Linux systems safely.
@@ -1340,6 +1452,8 @@ The system is going down for reboot NOW!
 ```
 This reboots the system instantly with a warning to users.
 
+<br>
+
 #### 81. reboot – Reboot Or Restart System
 The reboot command restarts the Linux operating system, logging all users off and safely rebooting the system. It synchronizes disks and brings the system down cleanly before restarting.
 
@@ -1349,6 +1463,8 @@ reboot
 Restarting system.
 ```
 This immediately reboots the OS. reboot is a simple alternative to shutdown -r.
+
+<br>
 
 #### 82. systemctl – Control The systemd System And Service Manager
 The systemctl command allows you to manage systemd services like starting, stopping, restarting, or reloading them. Systemd is the new init system used in most modern Linux distros, replacing SysV init.
@@ -1363,6 +1479,8 @@ Password:
 ==== AUTHENTICATION COMPLETE ===
 ```
 This starts the apache2 service after authenticating.
+
+<br>
 
 #### 83. service – Run A System V Init Script
 The service command runs System V init scripts for controlling services. This allows starting, stopping, restarting, and reloading services managed under traditional SysV init.

@@ -247,13 +247,13 @@ In this tutorial, you complete the following steps:
 
 ![image057](https://github.com/user-attachments/assets/c24f409b-3db6-44c4-9a1b-4b0b9d76c2de)
 
-![MSTR](assets/images/power_bi/image058.png)
+![image058](https://github.com/user-attachments/assets/1f109c10-41b4-4880-9d7f-cc8e3037862f)
 
-![MSTR](assets/images/power_bi/image059.png)
+![image059](https://github.com/user-attachments/assets/0e538313-8fce-4674-8f1b-df0fda3d2b82)
 
-![MSTR](assets/images/power_bi/image060.png)
+![image060](https://github.com/user-attachments/assets/49f62348-d977-4e42-a5f8-4a203597cb29)
 
-![MSTR](assets/images/power_bi/image061.png)
+![image061](https://github.com/user-attachments/assets/83cb8391-23b2-47f7-bf29-0326c6dd8ff0)
 
 
 <br>
@@ -262,19 +262,19 @@ In this tutorial, you complete the following steps:
 
 For a quick exploration of your data, try asking a question in the Q&A question box. Q&A lets you ask natural-language queries about your data. In a dashboard, the Q&A box is at the top (Ask a question about your data) under the menu bar. In a report, it's in the top menu bar (Ask a question)
 
-![MSTR](assets/images/power_bi/image062.png)
+![image062](https://github.com/user-attachments/assets/ee1b6a7c-b127-48b4-993a-798190a938d2)
 
-![MSTR](assets/images/power_bi/image063.png)
+![image063](https://github.com/user-attachments/assets/4f6c9269-d47c-4346-8101-2f4507d1de1b)
 
-![MSTR](assets/images/power_bi/image064.png)
+![image064](https://github.com/user-attachments/assets/097fe2d9-506f-4a4c-9d02-aa8bf562bcd2)
 
-![MSTR](assets/images/power_bi/image065.png)
+<img width="480" alt="image065" src="https://github.com/user-attachments/assets/f74898d7-25c2-4740-9054-e692ff6094fe" />
 
-![MSTR](assets/images/power_bi/image066.png)
+![image066](https://github.com/user-attachments/assets/c3ea54a4-a32d-42d2-8a1b-6c2417a2f51a)
 
-![MSTR](assets/images/power_bi/image067.png)
+![image067](https://github.com/user-attachments/assets/ea0332a8-821a-4477-85ff-5ae7f5ed8f8c)
 
-![MSTR](assets/images/power_bi/image068.png)
+<img width="779" alt="image068" src="https://github.com/user-attachments/assets/6a181f1a-0955-46e0-8c85-0a611208e03a" />
 
 
 <br>
@@ -283,13 +283,13 @@ For a quick exploration of your data, try asking a question in the Q&A question 
 
 We can rearrange the tiles to make better use of the dashboard space.
 
-![MSTR](assets/images/power_bi/image069.png)
+<img width="453" alt="image069" src="https://github.com/user-attachments/assets/5222eba8-8f14-4796-a04c-a9404dd07802" />
 
-![MSTR](assets/images/power_bi/image070.png)
+<img width="259" alt="image070" src="https://github.com/user-attachments/assets/bb658747-4f54-4f08-8559-113c8b0d141f" />
 
-![MSTR](assets/images/power_bi/image071.png)
+<img width="308" alt="image071" src="https://github.com/user-attachments/assets/b2e78b50-a03f-47fe-a07e-1a992deb4767" />
 
-![MSTR](assets/images/power_bi/image072.png)
+![image072](https://github.com/user-attachments/assets/1433ce80-cda9-4db1-88ea-3bfe89808762)
 
 <br>
 
@@ -297,7 +297,7 @@ We can rearrange the tiles to make better use of the dashboard space.
 
 Now that you've finished the tutorial, you can delete the dataset, report, and dashboard.
 
-![MSTR](assets/images/power_bi/image073.png)
+![image073](https://github.com/user-attachments/assets/4e80e718-2128-4119-976f-eb4412be0f79)
 
 
 <br><br><br>

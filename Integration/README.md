@@ -2,7 +2,7 @@
 
 Data integration is the crucial process of combining data from various disparate sources into a unified, coherent, and valuable dataset. The primary goal is to provide a comprehensive and accurate view of information, enabling businesses to make better-informed decisions, improve efficiency, enhance customer experiences, and drive advanced analytics like AI and machine learning.
 
-<img src="https://github.com/user-attachments/assets/291c8dbf-1fd1-4ab5-bb23-eee5d25ccf88" width="800">
+<img src="https://github.com/user-attachments/assets/291c8dbf-1fd1-4ab5-bb23-eee5d25ccf88" width="700">
 
 ### Why is Data Integration Important?
 
@@ -14,6 +14,8 @@ In today's data-driven world, organizations collect vast amounts of data from nu
 * **Increasing operational efficiency:** Automating data processes, reducing manual effort, and streamlining workflows.
 * **Powering advanced analytics and AI/ML:** Supplying the high-quality, combined datasets necessary for machine learning models and predictive analytics.
 * **Enhancing customer experience:** Creating a 360-degree view of customer data for personalized interactions.
+
+<br>
 
 ### How Data Integration Works: The Process
 
@@ -31,6 +33,8 @@ The data integration process typically involves several key steps:
     * **Data Lake:** A storage repository that holds raw data in its native format, often used for big data and advanced analytics.
     * **Data Mart:** A subset of a data warehouse focused on a specific business function.
     * **Other operational systems:** For application integration scenarios.
+
+<br>
 
 ### Common Data Integration Methods and Techniques
 
@@ -57,6 +61,8 @@ There are several approaches to data integration, each with its strengths and id
 7.  **Streaming Data Integration:** Handles real-time data processing from continuous event-driven sources (e.g., IoT devices, social media feeds, financial transactions). Data is ingested and integrated as it's generated.
     * **Best for:** Real-time predictions, dashboards, fraud detection, immediate insights.
 
+<br>
+
 ### Challenges in Data Integration
 
 Despite its benefits, data integration presents several challenges:
@@ -70,6 +76,8 @@ Despite its benefits, data integration presents several challenges:
 * **Complexity of Integration Processes:** Designing, implementing, and maintaining complex integration pipelines requires specialized skills and tools.
 * **Mismatched Schemas and Semantics:** Different systems may use different terminology or definitions for the same data, leading to interpretation issues.
 * **Legacy Systems:** Integrating with older, sometimes undocumented, legacy systems can be particularly difficult.
+
+<br>
 
 ### Best Practices for Data Integration
 
@@ -86,6 +94,8 @@ To overcome these challenges and ensure successful data integration, consider th
 * **Establish Data Governance:** Define policies and standards for data ownership, usage, and quality across the organization.
 * **Use a Centralized Connector Framework:** For API integrations, a reusable library for authentication and state management can simplify future integrations.
 * **Plan for Contingencies:** Budget for unexpected costs and have strategies in place for system outages or data discrepancies.
+
+<br>
 
 ### Data Integration Tools
 

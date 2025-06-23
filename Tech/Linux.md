@@ -1,3 +1,4 @@
+# Linux
 
 Linux is the backbone of the internet. It powers nearly 97% of the world’s top web servers. And 55.9% of professional developers lean on Linux for their development needs.
 
@@ -7,6 +8,7 @@ The core focus of Linux has never been its user interface. It was instead design
 
 In this article, we cover the top 100 most useful Linux commands. Learning just a handful of these commands can help you boost your productivity as a Linux user. Let’s dive right in!
 
+<br>
 
 ## Top 100 Most Useful Linux Commands
 Now that you have a basic understanding of what Linux commands are, let’s dive into the top 100 most commonly used Linux commands.
@@ -48,6 +50,7 @@ drwxr-xr-x 2 user user    4096 May 11 09:21 images
 ```
 This output shows a detailed list with permissions, size, owner, and timestamp for each file and directory. The long listing format given by the -l option provides helpful file information at a glance.
 
+<br>
 
 #### 2. cd – Change Directory
 The cd command is used to navigate between directories. It allows you to move the current working directory to a new location in the filesystem.

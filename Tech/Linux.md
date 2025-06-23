@@ -18,6 +18,7 @@ We’ve organized them by category to cover areas like file management, system m
 ### File Management Commands In Linux
 File management is a common task on the Linux command line. Here are essential file commands:
 
+<br>
 
 #### 1. ls – List Directory Contents
 The ls command is one of the most frequently used Linux commands. It lists the contents of a directory, showing all files and subdirectories contained inside.
@@ -71,6 +72,8 @@ cd /home/user/documents
 ```
 This would change the working directory to the “documents” folder under /home/user. Using cd is essential for being able to access and work with files in different locations conveniently.
 
+<br>
+
 #### 3. mkdir – Create A New Directory
 The mkdir command allows you to create a new folder. You simply pass the name of the directory to create.
 ```
@@ -90,6 +93,8 @@ mkdir -v ~/project/code
 ```
 This would create the “code” subdirectory under “project” in the user’s home folder, with verbose output showing the directory being created.
 
+<br>
+
 #### 4. rmdir – Remove Directory
 To delete an empty directory, use the rmdir command. Note that rmdir can only remove empty directories – we’ll need the rm command to delete non-empty ones.
 ```
@@ -107,6 +112,8 @@ rmdir -v ~/project/code
 ```
 This would delete the “code” subdirectory under “project” while showing verbose output.
 
+<br>
+
 #### 5. touch – Create A New Empty File
 The touch command is used to create a new empty file instantly. This is useful when you need an empty file to populate with data later.
 
@@ -123,6 +130,8 @@ For example:
 touch /home/user/newfile.txt
 ```
 The above command creates a new empty file called “newfile.txt” in the user’s /home/user directory. If newfile.txt already exists, it will update the access and modification times on the file instead.
+
+<br>
 
 #### 6. cp – Copy Files And Directories
 The cp command copies files or directories from one location to another. It requires passing a source path and a destination.
@@ -144,6 +153,7 @@ This would recursively copy the /home/user/documents directory and all its conte
 
 The cp command is one of the most frequently used file management utilities for copying files and directories in Linux. You’ll find yourself using this command quite often.
 
+<br>
 
 #### 7. mv – Move Or Rename Files And Directories
 The mv command is used to move files or directories to a different location or rename them. Unlike copy, the files from the source path are deleted after they’ve been moved to the destination.
@@ -168,6 +178,8 @@ mv folder1 folder2
 ```
 Here, “folder1” is renamed to “folder2.”
 
+<br>
+
 #### 8. rm – Remove Files And Directories
 The rm command deletes files and directories. Use caution because deleted files and directories cannot be recovered.
 
@@ -188,6 +200,8 @@ This recursively deletes the “temp” directory and all its contents without p
 
 Note: The rm command permanently erases files and folders, so use it with extreme care. If used with sudo privileges, you could also delete the root directory completely, and Linux would no longer function after restarting your computer. 
 
+<br>
+
 #### 9. find – Search For Files In A Directory Hierarchy
 The find command recursively searches directories for files matching given criteria.
 
@@ -207,6 +221,8 @@ find . -type f -mtime +30
 This will find all regular files over 30 days old under the current directory (denoted by the dot).
 
 The find command allows searching for files based on all kinds of advanced conditions like name, size, permissions, timestamps, ownership, and more.
+
+<br>
 
 #### 10. du – Estimate File Space Usage
 The du command measures the file space usage for a given directory. When used without options, it displays disk usage for the current working directory.
@@ -254,6 +270,8 @@ Some useful grep options:
 ```
 grep allows you to search files and output for keywords or patterns quickly. It’s invaluable for parsing logs, searching source code, matching regexes, and extracting data.
 
+<br>
+
 #### 12. awk – Pattern Scanning And Processing Language
 The awk command allows more advanced text processing based on specified patterns and actions. It operates on a line-by-line basis, splitting each line into fields.
 
@@ -275,6 +293,8 @@ Advanced awk capabilities include:
 - Output formatting control
 
 This makes awk suitable for data extraction, reporting, and transforming text output. awk is extremely powerful since it is an independent programming language giving you a lot of control as a Linux command.
+
+<br>
 
 #### 13. sed – Stream Editor For Filtering And Transforming Text
 The sed command allows filtering and transformation of text. It can perform operations like search/replace, deletion, transposition, and more. However, unlike awk, sed was designed for editing lines on a per-line basis as per the instructions.
@@ -298,6 +318,8 @@ s – Search and replace text
 ```
 sed is ideal for tasks like bulk find/replace, selective line deletion, and other text stream editing operations.
 
+<br>
+
 #### 14. sort – Sort Lines Of Text Files
 When you’re working with a lot of text or data or even large outputs from other commands, sorting it is a great way to make things manageable. The sort command will sort the lines of a text file alphabetically or numerically.
 
@@ -315,6 +337,8 @@ For example:
 sort -n grades.txt
 ```
 This numerically sorts the contents of grades.txt. sort is handy for ordering the contents of files for more readable output or analysis.
+
+<br>
 
 #### 15. uniq – Report Or Omit Repeated Lines
 The uniq command filters duplicate adjacent lines from input. This is often used in conjunction with sort.

@@ -1,10 +1,11 @@
 
-## Variables
+# Variables
 Variable is a temporary memory location in which you can store data (text or numbers). 
 <br>
 It's like an empty box. You can put any value. Change it's content. 
 <br>
 This means that when you create a variable you reserve some space in memory. 
+
 <br>
 
 ## Assigning Values to Variables
@@ -21,13 +22,15 @@ print(age)
 print(price)
 ```
 
+<br>
+
 ## Variable Naming Rules
 - Can contain only letters[A-Z][a-z], numbers[0-9] and underscores. eg. Max_Score1
 - Cannot start with a number.
 - Cannot use a Python "Reserved Words" eg. print, if, class etc.
 - Use meaningful names, such as "firstName" instead of "var".
-<br><br>
 
+<br>
 
 ## Identifiers
 
@@ -42,6 +45,7 @@ Here are naming conventions for Python identifiers:
 - Starting an identifier with two leading underscores indicates a strongly private identifier
 - If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
 
+<br>
 
 ## Reserved Words
 
@@ -52,10 +56,10 @@ and, assert, break, class, continue, def, del, elif, else, except, exec,
 finally, for, from, global, if, import, in, is, lambda, not, or, pass, 
 print, raise, return, try, while, with, yield
 ```
+
 <br>
 
-
-## Data Types
+# Data Types
 The data stored in memory can be of many types. For example, a person's age is stored as a numeric value and his or her address is stored as alphanumeric characters. Python has various standard data types that are used to define the operations possible on them and the storage method for each of them.
  
 Python has few standard data types:
@@ -67,14 +71,14 @@ Python has few standard data types:
 - Boolean
 - List
 - Dictionary
-<br>
 
+<br>
 
 ## Character
 Character data type is able to store a single letter, number or symbol such as<br>
 "A" , "b" , "$" , "3"
-<br>
 
+<br>
 
 ## String
 String is a group of characters to form words or sentences
@@ -86,6 +90,7 @@ address = """29 Craft Avenue
 Bradford, UK"""
 ```
 
+<br>
 
 ## Integer
 Integer is whole number, positive or negative, without decimal point. It is used for counting or storing quantities
@@ -94,21 +99,22 @@ Integer is whole number, positive or negative, without decimal point. It is used
 1234.0 is not an integer
 ```
  
+<br>
 
 ## Float
 Float (Real) is used for numbers, positive or negative, that have a decimal or fractional part
 
 987.234
-<br>
 
+<br>
 
 ## Boolean
 Boolean can store True or False value. It is used to indicate the result of a condition.
 
 isRaining = False<br>
 sorted = True
-<br>
 
+<br>
 
 ## List
 Variable is used to store a single item of data. List allows to store multiple items of data.<br>
@@ -118,6 +124,7 @@ It contains items separated by commas, enclosed in square brackets ([]).
 list1 = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
 ``` 
 
+<br>
 
 ## Dictionary
 Python's dictionaries are kind of hash table type. Dictionaries are enclosed by curly braces ({ }) and values can be assigned and accessed using square braces ([])
@@ -128,3 +135,4 @@ dict = {'name': 'john', 'code':6734, 'dept': 'sales'}
 
 
 <br><br>
+

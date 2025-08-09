@@ -1,8 +1,5 @@
-<style>
-gr { color: LightGrey; font-size: 80% }
-</style>
-
-<gr>I'm going to answer the top 3 questions people ask about Python</gr>
+## Python
+I'm going to answer the top 3 questions people ask about Python
 
 <b>What is Python?
 
@@ -20,10 +17,10 @@ If you continuously have to work with excel spreadsheets, PDF's, CSView files, d
 <br><br>
 So you don't have to be a software developer to use Python. You could be an Analyst, Accountant, Mathematician, or a scientist, and use Python to make your life easier. 
 So Python is a general purpose language.</gr>
-<br><br>
+<br><br><br><br>
 Now if you have some programming experience you may say, we can do all this stuff with other programming languages, so what's the big deal about Python?
 <br><br>
-<gr>Here are a few reasons:
+<b>Here are a few reasons:</b>
 <br>
 With Python you can solve complex problems in less time with fewer lines of code. Here's an example. Let's say we want to extract the first three letters of the text Hello World.
 <br><br>
@@ -38,7 +35,7 @@ Python - str[0:3]
 
 </gr>See how short, clean and elegant the language is? <gr>And that's just the beginning. Python makes a lot of trivial things really easy with a simple yet powerful syntax.
 <br><br>
-Here are a few other reasons why Python is so popular:</gr>
+<b>Here are a few other reasons why Python is so popular:</b>
 
 It's a high level language. <gr>It’s a programming language which is closer to human language rather than machine language. You don't have to worry about complex tasks such as memory management, garbage collection etc.</gr>
 
@@ -120,3 +117,4 @@ Structured programming aimed at improving the clarity, quality, and development 
 
 
 <br><br>
+

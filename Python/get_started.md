@@ -3,9 +3,13 @@
 - IDE (Integrated Development Environment) or
 - IDLE (Integrated Dev. and Learning Environment)
 
+<br>
+
 ## Modes:
 - Interactive Mode
 - Script Mode
+
+<br>
 
 ## First Python Program
 ```python
@@ -17,3 +21,4 @@ print(10 - 5)
 
 
 <br><br>
+
